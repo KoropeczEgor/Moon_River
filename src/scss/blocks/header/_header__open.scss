@@ -20,12 +20,33 @@
         &__link {
             z-index: 2;
             cursor: pointer;
-            color: #FFF;
-            font-family: futura_f;
-            font-size: 1rem;
-            font-weight: 450;
-            letter-spacing: 0.96px;
-            text-transform: uppercase;
+           
+            a {
+                position: relative;
+                color: #FFF;
+                font-family: futura_f;
+                font-size: 1rem;
+                font-weight: 450;
+                letter-spacing: 0.96px;
+                text-transform: uppercase;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: 0; 
+                    bottom: -1.8rem;
+                    width: 0%;
+                    height: 2px; 
+                    background: linear-gradient(to top, black, 20%, cyan);
+                    transition: width 0.35s;
+                }
+                &:hover:before {
+                    width: 100%;   
+                }
+                &:hover {
+                    color:  rgba(25, 192, 192, 0.63);
+                    transition: color 0.45s;
+                }
+            }
         }
     }
     .navigation__jewelry {
