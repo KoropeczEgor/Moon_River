@@ -4,14 +4,11 @@
     padding: 1.2rem 0 1.2rem 0;
     .presentation__cards {
         .presentation__card {
-            display: flex;
-            flex-direction: column;
+            @include flexibleAssembly;
             align-content: center;
-            align-items: center;
-            justify-content: center;
             width: 32vw;
             height: 400px;
-            background: $white;
+            background: $Silver;
             margin-bottom: 1.3rem;
             &__foto {
                 img {

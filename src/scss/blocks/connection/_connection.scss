@@ -5,10 +5,7 @@
     }
     &__hotline {
         width: 62vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flexibleAssembly;
         &__phone {
             width: 19rem;
             p {

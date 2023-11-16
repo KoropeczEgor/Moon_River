@@ -26,10 +26,7 @@
         width: 50%;
         height: 36.6rem;
         margin-right: 0.5rem;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
+        @include flexibleAssembly;
     }
     &__left {
         cursor: pointer;
@@ -37,9 +34,6 @@
         width: 50%;
         height: 36.6rem;
         margin-left: 0.5rem;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
+        @include flexibleAssembly;
     }
 }

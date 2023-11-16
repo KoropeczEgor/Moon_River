@@ -2,10 +2,7 @@
     display: flex;
     justify-content: space-between;
     &__locate {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        @include flexibleAssembly;
         background: $SignalBlack;
         width: 50vw;
         .map-field {
