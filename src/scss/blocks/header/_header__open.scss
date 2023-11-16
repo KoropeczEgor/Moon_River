@@ -1,10 +1,10 @@
 .header__menu__open {
-    background: #272727;
+    background: $SignalBlack;
     display: none;
     padding-bottom: 2.3rem;
     .navigation {
         height: 4.65rem;
-        background: #2F2F2F;
+        background: $BrownGray;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -15,7 +15,7 @@
             width: 100vw;
             top: 0;
             left: -26rem;
-            background: #2F2F2F;
+            background: $BrownGray;
         }
         &__link {
             z-index: 2;
@@ -23,7 +23,7 @@
            
             a {
                 position: relative;
-                color: #FFF;
+                color: $white;
                 font-family: futura_f;
                 font-size: 1rem;
                 font-weight: 450;
@@ -54,7 +54,7 @@
         display: flex;
         &__whom {
             &__title {
-                color: #FFF;
+                color: $white;
                 font-family: futura_f;
                 font-size: 1rem;
                 font-weight: 600;
@@ -63,7 +63,7 @@
                 margin-bottom: 1.8rem;
             }
             &__link {
-                color: #FFF;
+                color: $white;
                 font-family: futura_f;
                 font-size: 18px;
                 font-weight: 400;
@@ -74,7 +74,7 @@
         &__categories {
             margin-left: 7rem;
             &__title {
-                color: #FFF;
+                color: $white;
                 font-family: futura_f;
                 font-size: 1rem;
                 font-weight: 600;
@@ -83,7 +83,7 @@
                 margin-bottom: 1.8rem;
             }
             &__link {
-                color: #FFF;
+                color: $white;
                 font-family: futura_f;
                 font-size: 18px;
                 font-weight: 400;
@@ -94,7 +94,7 @@
         &__material {
             margin-left: 7rem;
             &__title {
-                color: #FFF;
+                color: $white;
                 font-family: futura_f;
                 font-size: 1rem;
                 font-weight: 600;
@@ -103,7 +103,7 @@
                 margin-bottom: 1.8rem;
             }
             &__link {
-                color: #FFF;
+                color: $white;
                 font-family: futura_f;
                 font-size: 18px;
                 font-weight: 400;
@@ -114,7 +114,7 @@
         &__brand {
             margin-left: 9rem;
             &__title {
-                color: #FFF;
+                color: $white;
                 font-family: futura_f;
                 font-size: 1rem;
                 font-weight: 600;
@@ -123,7 +123,7 @@
                 margin-bottom: 1.8rem;
             }
             &__link {
-                color: #FFF;
+                color: $white;
                 font-family: futura_f;
                 font-size: 18px;
                 font-weight: 400;
@@ -134,7 +134,7 @@
         
     }
     hr {
-        background-color: #272727;
+        background-color: $SignalBlack;
         margin-top: 2rem;
     }
 
@@ -147,7 +147,7 @@
             width: 46.8rem;
             height: 16.75rem;
             &__text {
-                color: #FFF;
+                color: $white;
                 font-family: futura_f;
                 font-size: 1.1rem;
                 font-weight: 400;
@@ -162,7 +162,7 @@
                 }
             }
             &__preview {
-                color: #FFF;
+                color: $white;
                 text-align: center;
                 font-family: futura_f;
                 font-size: 3rem;
@@ -176,7 +176,7 @@
             margin-top: 2rem;
         }
         p {
-            color: #FFF;
+            color: $white;
             font-family: futura_f;
             font-size: 0.8rem;
             font-weight: 400;
@@ -185,7 +185,7 @@
             margin-bottom: 1rem;
         }
         a {
-            color: #C2C2C2;
+            color: $Silver;
             font-family: futura_f;
             font-size: 1.2rem;
             font-weight: 300;

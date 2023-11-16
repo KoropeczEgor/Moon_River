@@ -1,6 +1,6 @@
 .footer {
     padding: 5rem 0 5.62rem 0;
-    background: #272727;
+    background: $SignalBlack;
     display: flex;
     flex-direction: column;
     &__menu {
@@ -9,7 +9,7 @@
         justify-content: center;
         &__link {
             cursor: pointer;
-            color: #FFF;
+            color: $white;
             font-family: futura_f;
             font-size: 0.8rem;
             font-weight: 450;
@@ -31,7 +31,7 @@
             margin-right: 24.6rem;
         }
         p {
-            color: #FFF;
+            color: $white;
             font-family: futura_f;
             font-size: 0.8rem;
             font-weight: 400;
@@ -39,7 +39,7 @@
             text-transform: uppercase;
         }
         a {
-            color: #C2C2C2;
+            color: $Silver;
             font-family: futura_f;
             font-size: 1.1rem;
             font-weight: 300;

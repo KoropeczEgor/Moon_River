@@ -1,18 +1,18 @@
 .title {
-    color: #272727;
+    color: $SignalBlack;
     font-size: 4rem;
     font-weight: 400;
     letter-spacing: 1.92px;
 }
 .subtitle {
-    color: #272727;
+    color: $SignalBlack;
     font-size: 1.12rem;
     font-style: italic;
     font-weight: 300;
 }
 
 .map__title {
-    color: #FFF;
+    color: $white;
     font-family: futura_f;
     font-size: 3rem;
     font-weight: 400;
@@ -20,7 +20,7 @@
 }
 
 .map__subtitle {
-    color: #FFF;
+    color: $white;
     font-family: futura_f;
     font-size: 1.1rem;
     font-weight: 300;

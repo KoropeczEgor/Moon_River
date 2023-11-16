@@ -3,9 +3,9 @@
     padding: 30px;
     overflow:  hidden;
     min-height: 100%;
-    background: #272727;
+    background: $SignalBlack;
     .title {
-        color: #FFF;
+        color: $white;
         font-family: futura_f;
         font-size: 48px;
         font-weight: 400;
@@ -38,7 +38,7 @@
         border: none;
         outline: none;
         &::after {
-            color: #fff;
+            color: $white;
             font-size: 40px;
         }
      }
@@ -55,7 +55,7 @@
         border: none;
         outline: none;
         &::after {
-            color: #fff;
+            color: $white;
             font-size: 40px;
         }
      }
@@ -69,7 +69,7 @@
         height: 1rem;
         line-height: 1.2rem;
         font-size: 1rem;
-        background-color: #fff;
+        background-color: $white;
      }
 
 }

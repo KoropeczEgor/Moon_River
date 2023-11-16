@@ -29,14 +29,14 @@
         }
         .shop-cart__num {
             position: absolute;
-            background-color: #d62240;
+            background-color: Crimson;
             width: 30px;
             height: 30px;
             border-radius: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
-            color: #fff;
+            color: $white;
             top: -5px;
             right: -5px;
         }
@@ -57,7 +57,7 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 transition: all 0.5s;
-                background-color: #fffefe;
+                background-color: $white;
             }
             span:nth-of-type(2) {
                 top: calc(50% - 10px);
@@ -83,12 +83,12 @@
 .header.active {
     position: relative;
     z-index: 2;
-    background: #272727;
+    background: $SignalBlack;
 }
 
 .logo.active {
     z-index: 2;
     path {
-        fill: #FFF;;
+        fill: $white;
     }
 }

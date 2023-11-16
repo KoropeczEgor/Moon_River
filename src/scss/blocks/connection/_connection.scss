@@ -12,7 +12,7 @@
         &__phone {
             width: 19rem;
             p {
-                color: #272727;
+                color: $SignalBlack;
                 font-family: futura_f;
                 font-size: 1.2rem;
                 font-weight: 400;
@@ -21,7 +21,7 @@
                 margin-bottom: 1.8rem;
             }
             a {
-                color: #959595;
+                color: $SignalGray;
                 font-family: futura_f;
                 font-size: 1.3rem;
                 font-weight: 300;
@@ -30,7 +30,7 @@
         &__news {
             margin-top: 6.87rem;
             p {
-                color: #272727;
+                color: SignalBlack;
                 font-family: futura_f;
                 font-size: 1.2rem;
                 font-weight: 400;
