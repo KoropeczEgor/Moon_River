@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+:root {
+    --index: calc(1vw + 1vh);
+    --transition: 0.75s cubic-bezier(0.2, 0.6, 0, 1);
+}
+
+@font-face {
+    font-family: futura_f;
+    src: url(../assets/fonts/FuturaPT-Bold.woff2);
+}
+
+
+
+@import "./base/animations/animations";
+@import "./base/veriables/verables";
+@import "./base/mixins/mixins";
+
+@import "./blocks/media/media";
+@import "./blocks/text/text";
+
+@import "./blocks/customInput/input";
+
+@import "./blocks/promo/promo";
+
+@import "./blocks/header/header";
+@import "./blocks/popup/popup";
+@import "./blocks/header/header__open";
+
+@import "./blocks/main/main";
+
+@import "./blocks/collection/collection";
+
+@import "./blocks/map/map";
+
+@import "./blocks/presentation/presentation";
+
+@import "./blocks/slider/slider";
+
+@import "./blocks/connection/connection";
+
+@import "./blocks/footer/footer";
+
+
+
+
+
+
+

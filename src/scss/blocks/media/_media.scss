@@ -1,0 +1,51 @@
+@media screen and (max-width: 1290px) {
+    .container {
+        width: 960px;
+    }
+    .header .like {
+        margin-left: 20rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .header .like {
+        margin-left: 7rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .header .like {
+        margin-left: 2rem;
+    }
+    .header .authorization {
+        margin-left: 2rem;
+    }
+    .header .basket {
+        margin-left: 2rem;
+    }
+    .header__burger {
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .header {
+        justify-content: flex-end;
+    }
+    .header__burger {
+        margin-left: 1rem;
+    }
+    .header__logo {
+        display: none;
+    }
+}

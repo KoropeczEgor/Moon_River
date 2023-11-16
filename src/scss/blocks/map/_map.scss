@@ -1,0 +1,30 @@
+.map {
+    display: flex;
+    justify-content: space-between;
+    &__locate {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #272727;
+        width: 50vw;
+        .map-field {
+            width: 27.1rem;
+        }
+        .map-pointer {
+            margin-left: 17rem;
+        }
+        .map__title {
+            margin-bottom: 1rem;
+        }
+        .map__subtitle {
+            margin-bottom: 3.75rem;
+        }
+    }
+    &__mapping {
+        iframe {
+            background-color: rgba(255,255,255,.5);
+        }
+        
+    }
+}

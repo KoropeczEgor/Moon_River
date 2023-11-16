@@ -1,0 +1,94 @@
+.header {
+    background: none;
+    &__menu {
+        display: flex;
+        align-items: center;
+        padding-top: 1.75rem;
+        margin-bottom: 1.75rem;
+        .logo {
+            z-index: 2;
+        }
+        .like {
+            margin-left: 37rem;
+        }
+        .human {
+            margin-left: 2.5rem;
+        }
+        .shop-cart {
+            position: relative;
+            margin-left: 2.5rem;
+            transition: 0.1s;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+        }
+        .shop-cart:hover {
+            transform: scale(1.1);
+        }
+        .shop-cart__num {
+            position: absolute;
+            background-color: #d62240;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            top: -5px;
+            right: -5px;
+        }
+        .menu__burger {
+            width: 30px;
+	        height: 30px;
+            position: relative;
+            overflow: hidden;
+            margin-left: 4.25rem;
+            cursor: pointer;
+        }
+        .menu__burger {
+            span {
+                width: 30px;
+	            height: 2px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                transition: all 0.5s;
+                background-color: #fffefe;
+            }
+            span:nth-of-type(2) {
+                top: calc(50% - 10px);
+            }
+            span:nth-of-type(3) {
+                top: calc(50% + 10px);
+            }
+        }
+        .menu__burger.active span:nth-of-type(1) {
+            display: none;
+          }
+          .menu__burger.active span:nth-of-type(2) {
+            top: 50%;
+            transform: translate(-50%, 0%) rotate(45deg);  
+          }
+          .menu__burger.active span:nth-of-type(3) {
+            top: 50%;
+            transform: translate(-50%, 0%) rotate(-45deg); 
+          }
+    }
+}
+
+.header.active {
+    position: relative;
+    z-index: 2;
+    background: #272727;
+}
+
+.logo.active {
+    z-index: 2;
+    path {
+        fill: #FFF;;
+    }
+}

@@ -1,0 +1,43 @@
+.presentation {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.2rem 0 1.2rem 0;
+    .presentation__cards {
+        .presentation__card {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            width: 32vw;
+            height: 400px;
+            background: #EDEDED;
+            margin-bottom: 1.3rem;
+            &__foto {
+                img {
+                    width: 260px;
+                    height: 180px;
+                }  
+            }
+            &__name {
+                color: #272727;
+                font-family: futura_f;
+                font-size: 1rem;
+                font-weight: 400;
+                letter-spacing: 0.8px;
+                text-transform: uppercase;
+                margin: 4rem 0 0.5rem 0;
+            }
+            &__description {
+                color: #757575;
+                font-family: futura_f;
+                font-size: 1.2rem;
+                font-weight: 300;
+            }
+        }
+        .presentation__card:nth-child(2) {
+            margin-bottom: 0;
+        }
+        
+    }
+}

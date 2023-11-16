@@ -1,0 +1,181 @@
+.header__menu__open {
+    background: #272727;
+    display: none;
+    padding-bottom: 2.3rem;
+    .navigation {
+        height: 4.65rem;
+        background: #2F2F2F;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        &__fons {
+            position: absolute;
+            height: 4.65rem;
+            width: 100vw;
+            top: 0;
+            left: -26rem;
+            background: #2F2F2F;
+        }
+        &__link {
+            z-index: 2;
+            cursor: pointer;
+            color: #FFF;
+            font-family: futura_f;
+            font-size: 1rem;
+            font-weight: 450;
+            letter-spacing: 0.96px;
+            text-transform: uppercase;
+        }
+    }
+    .navigation__jewelry {
+        margin-top: 2.3rem;
+        display: flex;
+        &__whom {
+            &__title {
+                color: #FFF;
+                font-family: futura_f;
+                font-size: 1rem;
+                font-weight: 600;
+                letter-spacing: 0.96px;
+                text-transform: uppercase;
+                margin-bottom: 1.8rem;
+            }
+            &__link {
+                color: #FFF;
+                font-family: futura_f;
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 1.08px;
+                margin-bottom: 1rem;
+            }
+        }
+        &__categories {
+            margin-left: 7rem;
+            &__title {
+                color: #FFF;
+                font-family: futura_f;
+                font-size: 1rem;
+                font-weight: 600;
+                letter-spacing: 0.96px;
+                text-transform: uppercase;
+                margin-bottom: 1.8rem;
+            }
+            &__link {
+                color: #FFF;
+                font-family: futura_f;
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 1.08px;
+                margin-bottom: 1rem;
+            }
+        }
+        &__material {
+            margin-left: 7rem;
+            &__title {
+                color: #FFF;
+                font-family: futura_f;
+                font-size: 1rem;
+                font-weight: 600;
+                letter-spacing: 0.96px;
+                text-transform: uppercase;
+                margin-bottom: 1.8rem;
+            }
+            &__link {
+                color: #FFF;
+                font-family: futura_f;
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 1.08px;
+                margin-bottom: 1rem;
+            }
+        }
+        &__brand {
+            margin-left: 9rem;
+            &__title {
+                color: #FFF;
+                font-family: futura_f;
+                font-size: 1rem;
+                font-weight: 600;
+                letter-spacing: 0.96px;
+                text-transform: uppercase;
+                margin-bottom: 1.8rem;
+            }
+            &__link {
+                color: #FFF;
+                font-family: futura_f;
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 1.08px;
+                margin-bottom: 1rem;
+            }
+        }
+        
+    }
+    hr {
+        background-color: #272727;
+        margin-top: 2rem;
+    }
+
+    .header__wrapper {
+        margin-top: 4.3rem;
+        display: flex;
+        justify-content: space-between;    
+        .header__collection {
+            background: url(../assets/newNow.png)center center/cover no-repeat;
+            width: 46.8rem;
+            height: 16.75rem;
+            &__text {
+                color: #FFF;
+                font-family: futura_f;
+                font-size: 1.1rem;
+                font-weight: 400;
+                letter-spacing: 1.08px;
+                margin: 1.87rem 0 0 1.87rem;
+                &--align {
+                    display: flex;
+                    justify-content: flex-end;
+                    .arrow {
+                        margin: 3px 1.87rem 0 1.4rem;   
+                    }
+                }
+            }
+            &__preview {
+                color: #FFF;
+                text-align: center;
+                font-family: futura_f;
+                font-size: 3rem;
+                font-weight: 400;
+                letter-spacing: 1.44px;
+                margin: 3.43rem 0 3.43rem 0;
+            }
+            
+        }
+        .header__hotline__news {
+            margin-top: 2rem;
+        }
+        p {
+            color: #FFF;
+            font-family: futura_f;
+            font-size: 0.8rem;
+            font-weight: 400;
+            letter-spacing: 0.7px;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+        a {
+            color: #C2C2C2;
+            font-family: futura_f;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        .header__icons {
+            margin-top: 1rem;
+        }
+    }
+    
+}
+
+.header__menu__open.active {
+    display: block;
+}

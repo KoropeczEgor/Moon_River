@@ -1,0 +1,45 @@
+.collection {
+    display: flex;
+    flex-grow: 2;
+    padding: 1.25rem 0 1.25rem 0;
+    p {
+        color: #FFF;
+        font-family: futura_f;
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    span {
+        color: #FFF;
+        font-family: futura_f;
+        font-size: 4rem;
+        font-weight: 400;
+        letter-spacing: 1.92px;
+        margin-bottom: 1.4rem;
+    }
+    hr {
+        width: 8rem;
+        height: 1px;
+    }
+    &__right {
+        cursor: pointer;
+        background: url(../assets/right.png)center center/cover no-repeat;
+        width: 50%;
+        height: 36.6rem;
+        margin-right: 0.5rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__left {
+        cursor: pointer;
+        background: url(../assets/left.png)center center/cover no-repeat;
+        width: 50%;
+        height: 36.6rem;
+        margin-left: 0.5rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
